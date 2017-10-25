@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script src="node_modules/aframe/dist/aframe-master.js"></script>
+        <script src="built/main.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-sky color="#ECECEC"></a-sky>
+            <a-entity id="leftTouch" oculus-touch-controls="hand: left"></a-entity>
+            <a-entity stroke-controls>
+                <a-entity id="rightTouch" oculus-touch-controls="hand: right"></a-entity>
+            </a-entity>
+        </a-scene>
+</html>
